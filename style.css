@@ -1,0 +1,44 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("iNgBZ1.webp");
+    color: white;
+    background-size: 100vw 100vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: gold;
+    font-size: 5em;
+
+}
+
+p{
+    font-size: 2em;
+}
+
+#message{
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: rgb(119, 4, 4);
+    min-width: 20vw;
+    padding: 1vh 2vw;
+    background-color: gold;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
